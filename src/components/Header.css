@@ -1,0 +1,71 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #2c3e50; /* Dark background color */
+  padding: 10px 30px; /* Padding around the header */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Shadow effect */
+}
+
+.logo-container {
+  margin: 1px;
+  padding-right: 500px;
+  flex: 1; /* Use flex to space out items */
+}
+
+.logo {
+  text-decoration: none; /* No underline for logo link */
+}
+
+.logo-image {
+  height: 50px; /* Adjust logo height as needed */
+}
+
+nav {
+  display: flex; /* Flexbox for navigation */
+  gap: 10px; /* Space between nav items */
+  justify-content: flex-end; /* Aligns nav items to the right */
+}
+
+nav a {
+  color: #ecf0f1; /* Link color */
+  text-decoration: none; /* No underline */
+  font-size: 16px; /* Font size for links */
+  transition: color 0.3s ease-in-out; /* Smooth color transition */
+  padding: 10px 20px; /* Padding around links */
+  border-radius: 5px; /* Rounded corners */
+}
+
+nav a:hover {
+  color: #1abc9c; /* Color on hover */
+  background-color: #34495e; /* Background on hover */
+}
+
+nav a.active {
+  color: #1abc9c; /* Active link color */
+  font-weight: bold; /* Bold active link */
+}
+
+.cart-link {
+  position: relative; /* For positioning the cart count */
+}
+
+.cart-count {
+  background-color: #e74c3c; /* Red background for cart count */
+  color: white; /* White text color */
+  font-size: 14px; /* Font size for count */
+  padding: 3px 8px; /* Padding for count */
+  border-radius: 50%; /* Circular shape */
+  position: absolute; /* Absolute position */
+  top: -10px; /* Adjust vertical position */
+  right: -10px; /* Adjust horizontal position */
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #2c3e50;
+  padding: 15px 30px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  height: 60px; /* You can adjust this height if needed */
+}

@@ -1,0 +1,37 @@
+.book-list {
+  display: flex; /* Use flexbox to align items in a row */
+  flex-wrap: wrap; /* Allow items to wrap onto the next line if necessary */
+  justify-content: space-around; /* Distribute space around items */
+  gap: 20px; /* Add space between book cards */
+  padding: 20px; /* Add some padding around the book list */
+}
+
+.book-card {
+  background-color: #ffffff; /* Set a white background for the card */
+  border: 1px solid #ddd; /* Light border */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  width: 200px; /* Set a fixed width for cards */
+  padding: 15px; /* Inner padding for the card */
+  text-align: center; /* Center the text */
+}
+
+.book-image {
+  width: 100%; /* Make image responsive to the card width */
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 4px; /* Rounded corners for images */
+}
+
+button {
+  background-color: #1abc9c; /* Button background color */
+  color: white; /* Button text color */
+  border: none; /* Remove border */
+  border-radius: 5px; /* Rounded button */
+  padding: 10px; /* Padding inside button */
+  cursor: pointer; /* Pointer cursor on hover */
+  transition: background-color 0.3s; /* Smooth transition */
+}
+
+button:hover {
+  background-color: #16a085; /* Darker shade on hover */
+}

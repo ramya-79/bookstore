@@ -1,0 +1,27 @@
+/* Ensures the home container takes full viewport height and width */
+.home-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Full viewport height */
+  width: 1000px; /* Full width */
+  margin: 50px;
+  background-image: url('https://collegeinfogeek.com/wp-content/uploads/2018/11/Essential-Books.jpg'); /* Add background image if needed */
+  background-size: cover; /* Cover the whole area with the image */
+  background-position: center; /* Center the background image */
+}
+
+.home-content {
+  text-align: center;
+  color: white; /* Text color can be adjusted */
+  border-radius: 100px;
+}
+
+.home-content h1 {
+  font-size: 3rem;
+}
+
+.home-content p {
+  font-size: 1.5rem;
+}
+

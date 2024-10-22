@@ -1,0 +1,58 @@
+.book-list {
+  display: flex; /* Use Flexbox for layout */
+  flex-wrap: wrap; /* Allow items to wrap onto the next line */
+  justify-content: center; /* Center items horizontally */
+  padding: 20px; /* Padding around the book list */
+  margin: 0; /* Remove default margin */
+}
+
+.book-card {
+  display: flex; /* Use Flexbox for card layout */
+  flex-direction: column; /* Stack elements vertically */
+  align-items: center; /* Center items horizontally */
+  border: 1px solid #ddd; /* Light border for the card */
+  padding: 15px; /* Inner padding for the card */
+  width: calc(25% - 20px); /* Width calculation for responsive layout */
+  margin: 10px; /* Margin around each card */
+  text-align: center; /* Center text within the card */
+  background-color: #f9f9f9; /* Light background color */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  transition: transform 0.3s, box-shadow 0.3s; /* Smooth transitions */
+}
+
+.book-card:hover {
+  transform: scale(1.05); /* Scale effect on hover */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Darker shadow on hover */
+}
+
+.book-card img {
+  max-width: 100%; /* Responsive image */
+  height: auto; /* Maintain aspect ratio */
+  margin-bottom: 15px; /* Space below the image */
+  border-radius: 4px; /* Rounded corners for the image */
+}
+
+.book-card h3 {
+  font-size: 18px; /* Title font size */
+  margin-bottom: 10px; /* Space below the title */
+}
+
+.book-card p {
+  font-size: 14px; /* Paragraph font size */
+  margin: 5px 0; /* Vertical margin */
+}
+
+.book-card button {
+  padding: 10px; /* Button padding */
+  background-color: #007BFF; /* Button color */
+  color: white; /* Button text color */
+  border: none; /* Remove border */
+  cursor: pointer; /* Pointer cursor on hover */
+  border-radius: 5px; /* Rounded button */
+  transition: background-color 0.3s; /* Smooth background color transition */
+}
+
+.book-card button:hover {
+  background-color: #0056b3; /* Darker shade on hover */
+}
